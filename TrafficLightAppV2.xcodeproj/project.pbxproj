@@ -13,6 +13,9 @@
 		FB4D389B24C81757000F0E35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4D389A24C81757000F0E35 /* Assets.xcassets */; };
 		FB4D389E24C81757000F0E35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4D389D24C81757000F0E35 /* Preview Assets.xcassets */; };
 		FB4D38A124C81757000F0E35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4D389F24C81757000F0E35 /* LaunchScreen.storyboard */; };
+		FB4D38A924C81773000F0E35 /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4D38A824C81773000F0E35 /* ColorCircle.swift */; };
+		FB4D38B524C83F74000F0E35 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4D38B424C83F74000F0E35 /* CustomButton.swift */; };
+		FB4D38B724C844E2000F0E35 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4D38B624C844E2000F0E35 /* Background.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		FB4D389D24C81757000F0E35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB4D38A024C81757000F0E35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB4D38A224C81757000F0E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4D38A824C81773000F0E35 /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
+		FB4D38B424C83F74000F0E35 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		FB4D38B624C844E2000F0E35 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				FB4D389424C81753000F0E35 /* AppDelegate.swift */,
 				FB4D389624C81753000F0E35 /* SceneDelegate.swift */,
 				FB4D389824C81753000F0E35 /* ContentView.swift */,
+				FB4D38A824C81773000F0E35 /* ColorCircle.swift */,
+				FB4D38B624C844E2000F0E35 /* Background.swift */,
+				FB4D38B424C83F74000F0E35 /* CustomButton.swift */,
 				FB4D389A24C81757000F0E35 /* Assets.xcassets */,
 				FB4D389F24C81757000F0E35 /* LaunchScreen.storyboard */,
 				FB4D38A224C81757000F0E35 /* Info.plist */,
@@ -147,8 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB4D389524C81753000F0E35 /* AppDelegate.swift in Sources */,
+				FB4D38A924C81773000F0E35 /* ColorCircle.swift in Sources */,
 				FB4D389724C81753000F0E35 /* SceneDelegate.swift in Sources */,
 				FB4D389924C81753000F0E35 /* ContentView.swift in Sources */,
+				FB4D38B524C83F74000F0E35 /* CustomButton.swift in Sources */,
+				FB4D38B724C844E2000F0E35 /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "BadProgrammer-inc.TrafficLightAppV2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "BadProgrammer-inc.TrafficLightAppV2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
